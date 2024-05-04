@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.credited {
+    color: green;
+    font-weight: 700;
+}
+
+.debited {
+    color: red;
+    font-weight: 700;
+
+}
+
+
+.info{
+
+    height:100px;
+    width: 100%;
+    color: rgb(248, 248, 248);
+    background-color: rgb(55, 73, 231);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box1{
+
+    /* background-image: url('https://media.istockphoto.com/id/157190058/photo/money-falling.jpg?s=170667a&w=0&k=20&c=BONMMRVwlfNiwS8uxxg_MyRWyaIrP5laveN66NOAg5c='); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+    height: 100px;
+}
+
+.one{
+/* background-color: black; */
+    width: 675px;
+    height: 319px;
+    padding-top: 31px;
+    margin-top: 27px;
+    margin-left:60px;
+    color: rgb(56, 55, 55);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.details{
+    letter-spacing: 1px;
+    text-align: left;
+}
+.two{
+    width: 675px;
+    height: 175px;
+    height: 350px;
+    margin-top: 27px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    /* background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-stack-of-coins-on-pink-background-with-money-saving-concept-3d-image_460102.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mybox{
+    display: flex;
+    justify-content: space-around;
+    height: 409px;
+
+}
+.button-26 {
+  appearance: button;
+  background-color: #1652F0;
+  border: 1px solid #1652F0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+}
+
+.button-26:disabled {
+  opacity: .5;
+}
+
+.button-26:focus {
+  outline: 0;
+}
+
+.button-26:hover {
+  background-color: #0A46E4;
+  border-color: #0A46E4;
+}
+
+.button-26:active {
+  background-color: #0039D7;
+  border-color: #0039D7;
+}
+    /* width: 108px;
+    height: 46px;
+    margin-top: 20px;
+    margin-left: -30px; */
+
+
+.para{
+    font-size: 44px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+.add{
+    margin-left: 89px;
+    /* background-color:#333333; */
+    padding-top: 20px;
+    width: 635px;
+    height: 430px;
+    /* margin-top: 40px; */
+    padding-left: 10px;
+    padding-right: 30px;
+    color: black;
+
+
+}
+
+
+.sub{
+    margin-left: 74px;
+    /* background-color:#333333; */
+    padding-top: 20px;
+    width: 635px;
+    height: 430px;
+    /* margin-top: 40px; */
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-right: 70px;
+    color: black;
+}
+
+
+
+.mybox2{
+    display: flex;
+    justify-content: space-between;
+    height:500px;
+    background-color: aliceblue;
+}
+
+.trans{
+    width: 534px;
+    height: 63px;
+    font-size: 30px;
+    padding-top: 17px;
+    color: gray;
+}
+.add-btn{
+    width: 140px;
+    height: 70px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sub-btn{
+    width: 140px;
+    height: 70px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* .two-items{
+display: flex;
+width: 100%;
+height: 70px;
+} */
+.amt{
+
+        display: flex;
+        justify-content: center; /* Distribute items evenly along the main axis */
+        flex-wrap: wrap; /* Allow items to wrap to the next row */
+}
